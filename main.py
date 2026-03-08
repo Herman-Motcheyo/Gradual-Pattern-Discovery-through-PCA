@@ -7,11 +7,8 @@ from src.models.graank2 import algorithm_gradual_gradual
 
 
 def process_support(dataset, support):
-    """
-    Fonction pour exécuter l'algorithme sur un dataset avec un support donné.
-    Elle sauvegarde le résultat dans un fichier suffixé par le support.
-    """
-    file_results = f"Cargo_clean_par_{support}.csv"
+
+    file_results = f"chickenpox_par_{support}.csv"
 
     with open(file_results, mode='w', newline="", encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=';')
@@ -58,9 +55,9 @@ def experimentation_parallel(dataframes, supports):
 
 if __name__ == "__main__":
     datasets = [
-        "./data/Clean/Cargo_2000.csv"
+        "./data/Clean/Chickenpox.csv",
     ]
-    supports = [1,0.9,0.8,0.7,0.6,0.5,0.4,0.38,0.34,0.3,0.28,0.24,0.2,0.18,0.14,0.1,0.08,0.04]
+    supports = [0.3]
     print("Début expérimentation")
     experimentation_parallel(datasets, supports)
     print("Fin expérimentation")

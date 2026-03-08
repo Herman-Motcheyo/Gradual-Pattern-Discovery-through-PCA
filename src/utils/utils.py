@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-plt.style.use('ggplot')
 
 
 def transform_to_dict(unique_array):
@@ -247,25 +246,25 @@ def compare_supports(dic_1_frozen, dic_2_frozen, common_keys):
 
 
 
-def plot_comparison_sizes(original, pca, dataset_valid, title="Comparison of Sizes and Common Elements"):
+def plot_comparison_sizes(original, pca, dataset_valid, title="Comparaison de la taille et du nombre d'éléments communs"):
     fig, ax1 = plt.subplots(figsize=(12, 8))
 
     # First axis (left) for "Size" curves
-    sns.lineplot(data=original, x="Support", y="Size", label="Original (total size)", color="green", linestyle="-", linewidth=2, ax=ax1)
-    sns.lineplot(data=pca, x="Support", y="Size", label="PCA (total size)", color="orange", linestyle="-.", linewidth=2, ax=ax1)
+    sns.lineplot(data=original, x="Support", y="Size", label="Initial", color="green", linestyle="-", linewidth=2, ax=ax1)
+    sns.lineplot(data=pca, x="Support", y="Size", label="PCA", color="orange", linestyle="-.", linewidth=2, ax=ax1)
 
     # Configure the first axis (left)
     ax1.set_xlabel("Support", fontsize=14)
-    ax1.set_ylabel("Size", fontsize=14, color="black")
+    ax1.set_ylabel("Taille", fontsize=14, color="black")
     ax1.tick_params(axis="y", labelcolor="black")
     ax1.set_title(title, fontsize=16)
 
     # Second axis (right) for "Pattern" of common elements
     ax2 = ax1.twinx()
-    sns.lineplot(data=dataset_valid, x="Support", y="Pattern", label="Common Elements", color="blue", linestyle="--", linewidth=2, ax=ax2, marker="o")
+    sns.lineplot(data=dataset_valid, x="Support", y="Pattern", label="# Elements", color="blue", linestyle="--", linewidth=2, ax=ax2, marker="o")
 
     # Configure the second axis (right)
-    ax2.set_ylabel("Number of Elements", fontsize=14, color="blue")
+    ax2.set_ylabel("Nombre d'élements communs", fontsize=14, color="blue")
     ax2.tick_params(axis="y", labelcolor="blue")
 
     # Add the legend (merge both axes)
@@ -277,5 +276,121 @@ def plot_comparison_sizes(original, pca, dataset_valid, title="Comparison of Siz
     ax1.grid(True, which="both", linestyle="--", linewidth=0.5)
 
     # Display the graph
+    plt.tight_layout()
+    plt.show()
+
+
+
+def plot_comparison_sizes2(original, pca, dataset_valid, 
+                          title="Comparaison de la taille et du nombre d'éléments communs"):
+
+    fig, ax1 = plt.subplots(figsize=(10, 6))
+
+    sns.lineplot(data=original, x="Support", y="Size", 
+                 label="Without PCA", linewidth=2, ax=ax1)
+    sns.lineplot(data=pca, x="Support", y="Size", 
+                 label="PCA", linewidth=2, ax=ax1)
+
+    ax1.set_xlabel("Min sup", fontsize=14)
+    ax1.set_ylabel("# candidats", fontsize=14, color="black")
+    ax1.tick_params(axis="y", labelcolor="black")
+    ax1.set_title(title, fontsize=16, weight="bold")
+
+    ax2 = ax1.twinx()
+    sns.lineplot(data=dataset_valid, x="Support", y="Pattern", 
+                 label="Eléments communs", 
+                 linewidth=2, ax=ax2, marker="o")
+
+    ax2.set_ylabel("# candidats communs", fontsize=14, color="blue")
+    ax2.tick_params(axis="y", labelcolor="blue")
+
+    lignes1, labels1 = ax1.get_legend_handles_labels()
+    lignes2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(lignes1 + lignes2, labels1 + labels2, 
+               loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=3, frameon=False)
+
+    fig.tight_layout()
+    plt.savefig(f'{title}.jpeg')
+    plt.show()
+
+
+
+def plot_comparison_bars_Withoutbar(original, pca, dataset_valid,
+                         title="Comparaison des tailles et éléments communs"):
+
+    # Fusionner les données
+    df1 = original.copy()
+    df1["Type"] = "Without PCA"
+    df1.rename(columns={"Size": "Valeur"}, inplace=True)
+
+    df2 = pca.copy()
+    df2["Type"] = "PCA"
+    df2.rename(columns={"Size": "Valeur"}, inplace=True)
+
+    df3 = dataset_valid.copy()
+    df3["Type"] = "Éléments communs"
+    df3.rename(columns={"Pattern": "Valeur"}, inplace=True)
+
+    df_all = pd.concat([df1[["Support", "Type", "Valeur"]],
+                        df2[["Support", "Type", "Valeur"]],
+                        df3[["Support", "Type", "Valeur"]]])
+    
+    
+    df2  = df_all[df_all['Support'] >= 0.3]
+
+    # Création du diagramme en barres
+    plt.figure(figsize=(12, 6))
+    ax = sns.barplot(data=df2, x="Support", y="Valeur", hue="Type")
+
+    ax.set_xlabel("Min sup", fontsize=14)
+    ax.set_ylabel("Valeur", fontsize=14)
+    ax.set_title(title, fontsize=16, weight="bold")
+    plt.legend(title="", loc="upper right")
+
+    plt.tight_layout()
+    #plt.savefig(f"{title}_bar.jpeg")
+
+    plt.show()
+
+def plot_comparison_bars(original, pca, dataset_valid,
+                         title="Comparison of sizes and common elements"):
+
+    # Fusionner les données
+    df1 = original.copy()
+    df1["Type"] = "Without PCA"
+    df1.rename(columns={"Size": "Valeur"}, inplace=True)
+
+    df2 = pca.copy()
+    df2["Type"] = "PCA"
+    df2.rename(columns={"Size": "Valeur"}, inplace=True)
+
+    df3 = dataset_valid.copy()
+    df3["Type"] = "Common Elements"
+    df3.rename(columns={"Pattern": "Valeur"}, inplace=True)
+
+    df_all = pd.concat([df1[["Support", "Type", "Valeur"]],
+                        df2[["Support", "Type", "Valeur"]],
+                        df3[["Support", "Type", "Valeur"]]])
+    
+    df2 = df_all[df_all['Support'] >= 0.3]
+
+    # Palette personnalisée
+    palette = { "Without PCA": "blue",
+               "PCA": "orange", 
+               "Common Elements": "green" }
+
+    plt.figure(figsize=(12, 6))
+    ax = sns.barplot(data=df2, x="Support", y="Valeur", hue="Type")
+
+    for container in ax.containers:
+        ax.bar_label(container, fmt="%.0f", label_type="edge", fontsize=10, padding=3)
+
+    ax.set_xlabel("Min sup", fontsize=14)
+    ax.set_ylabel("#Candidats", fontsize=14)
+    ax.set_title(title, fontsize=16, weight="bold")
+    plt.legend(title="", loc="upper right")
+
+
+    plt.savefig(f"{title}_bar.eps")
     plt.tight_layout()
     plt.show()
