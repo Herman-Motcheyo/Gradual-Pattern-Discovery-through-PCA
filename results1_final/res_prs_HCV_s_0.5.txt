@@ -1,0 +1,54 @@
+Run-time: 0.5229365825653076 seconds
+Total allocated memory size: 39.7 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 11
+No. of (dataset) tuples: 615
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(1979962.5819497227), 'True'], [np.float64(4135452.2027639584), 'True'], [np.float64(3764260.4007115955), 'True'], [np.float64(1362141.252205008), 'True'], [np.float64(206364.67178877856), 'True'], [np.float64(2076517.4492067166), 'True'], [np.float64(195192.38689861962), 'True'], [np.float64(1921566.9698042143), 'True'], [np.float64(3140165.592195771), 'True'], [np.float64(2841682.433169705), 'True'], [np.float64(2156230.2332230816), 'True'], [np.float64(2764580.890278905), 'True'], [np.float64(1754253.880891536), 'True'], [np.float64(2016319.7510795903), 'True'], [np.float64(2172362.0903529627), 'True'], [np.float64(1602904.7341933402), 'True'], [np.float64(1403608.720377178), 'True'], [np.float64(1334675.8882967725), 'True'], [np.float64(3765133.197122931), 'True'], [np.float64(619932.8704949043), 'True']]
+Minimum support: 0.5
+Number of cores: 4
+Number of patterns: 1
+Number of invalid patterns: 0
+
+0. Age
+1. ALB
+2. ALP
+3. ALT
+4. AST
+5. BIL
+6. CHE
+7. CHOL
+8. CREA
+9. GGT
+10. PROT
+
+File: ./data/herman/Clean/HCV.csv
+
+Pattern : Support
+['0+', '7+'] : 0.549
+
+
+Iteration: Best Cost
+0: 0.00019286403085824494 
+1: 0.00019286403085824494 
+2: 0.00019286403085824494 
+3: 0.00019286403085824494 
+4: 0.00019286403085824494 
+5: 0.00019286403085824494 
+6: 0.00019286403085824494 
+7: 0.00019286403085824494 
+8: 0.00019286403085824494 
+9: 0.00019286403085824494 
+10: 0.00019286403085824494 
+11: 0.00019286403085824494 
+12: 0.00019286403085824494 
+13: 0.00019286403085824494 
+14: 0.00019286403085824494 
+15: 9.161704076958314e-05 
+16: 9.161704076958314e-05 
+17: 9.161704076958314e-05 
+18: 9.161704076958314e-05 
+19: 9.161704076958314e-05 

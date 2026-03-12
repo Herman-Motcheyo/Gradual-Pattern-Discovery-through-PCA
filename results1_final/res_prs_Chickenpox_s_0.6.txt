@@ -1,0 +1,65 @@
+Run-time: 0.8318746089935303 seconds
+Total allocated memory size: 48.9 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 20
+No. of (dataset) tuples: 522
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(137928215081.41507), 'True'], [np.float64(887804415474.8964), 'False'], [np.float64(664077896434.4104), 'True'], [np.float64(649223858074.5459), 'True'], [np.float64(1077674169249.5118), 'True'], [np.float64(265547883247.72443), 'True'], [np.float64(959909336812.0724), 'True'], [np.float64(842628315811.9939), 'True'], [np.float64(563617067724.131), 'True'], [np.float64(835949620144.5345), 'True'], [np.float64(34172205023.691822), 'True'], [np.float64(259184157456.97192), 'True'], [np.float64(857854091609.4432), 'False'], [np.float64(90285718731.09062), 'True'], [np.float64(984344347333.9532), 'True'], [np.float64(101036331749.12125), 'True'], [np.float64(286107264808.36444), 'False'], [np.float64(1037465319665.1982), 'True'], [np.float64(1062609089806.0762), 'True'], [np.float64(885375277545.165), 'False']]
+Minimum support: 0.6
+Number of cores: 4
+Number of patterns: 3
+Number of invalid patterns: 4
+
+0. BUDAPEST
+1. BARANYA
+2. BACS
+3. BEKES
+4. BORSOD
+5. CSONGRAD
+6. FEJER
+7. GYOR
+8. HAJDU
+9. HEVES
+10. JASZ
+11. KOMAROM
+12. NOGRAD
+13. PEST
+14. SOMOGY
+15. SZABOLCS
+16. TOLNA
+17. VAS
+18. VESZPREM
+19. ZALA
+
+File: ./data/herman/Clean/Chickenpox.csv
+
+Pattern : Support
+['0+', '5+', '8+'] : 0.6
+['0+', '2+', '4+'] : 0.634
+['0+', '3+', '7+'] : 0.612
+
+
+Iteration: Best Cost
+0: 0.047619047619047616 
+1: 0.047619047619047616 
+2: 0.00819672131147541 
+3: 0.00819672131147541 
+4: 0.00819672131147541 
+5: 0.00819672131147541 
+6: 0.00819672131147541 
+7: 0.0012987012987012987 
+8: 0.0007401924500370096 
+9: 0.0007401924500370096 
+10: 0.0007401924500370096 
+11: 0.0007401924500370096 
+12: 0.0007401924500370096 
+13: 0.0007401924500370096 
+14: 0.0007401924500370096 
+15: 0.0007401924500370096 
+16: 0.0007401924500370096 
+17: 0.0007401924500370096 
+18: 0.0007401924500370096 
+19: 0.0007401924500370096 

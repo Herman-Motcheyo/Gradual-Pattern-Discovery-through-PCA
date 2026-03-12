@@ -1,0 +1,81 @@
+Run-time: 37.325695276260376 seconds
+Total allocated memory size: 50.5 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(4.105361530351215e+21), 'False'], [np.float64(8.816597392519043e+20), 'False'], [np.float64(1.6308059662769854e+21), 'True'], [np.float64(1.4684767251922006e+21), 'True'], [np.float64(2.8924439539987414e+21), 'False'], [np.float64(3.879473559132504e+21), 'False'], [np.float64(2.3323978472745007e+21), 'True'], [np.float64(8.40954417660421e+20), 'False'], [np.float64(2.3374012176481276e+21), 'True'], [np.float64(4.441932604686295e+21), 'True'], [np.float64(4.2578417277194543e+21), 'False'], [np.float64(2.4577685530172326e+21), 'False'], [np.float64(4.3815469575008855e+21), 'False'], [np.float64(1.0477980399985864e+21), 'False'], [np.float64(2.5421746710242415e+21), 'False'], [np.float64(5.311549661319686e+19), 'True'], [np.float64(4.318696238191959e+20), 'True'], [np.float64(2.605312346264927e+21), 'False'], [np.float64(5.473931665220148e+19), 'False'], [np.float64(3.131805351466901e+21), 'False']]
+Minimum support: 0.4
+Number of cores: 4
+Number of patterns: 2
+Number of invalid patterns: 13
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+['0+', '1+'] : 0.506
+['0+', '1+', '2+'] : 0.422
+
+
+Iteration: Best Cost
+0: 0.009009009009009009 
+1: 0.009009009009009009 
+2: 0.009009009009009009 
+3: 0.009009009009009009 
+4: 0.009009009009009009 
+5: 0.009009009009009009 
+6: 0.009009009009009009 
+7: 0.009009009009009009 
+8: 0.009009009009009009 
+9: 0.0047169811320754715 
+10: 0.0047169811320754715 
+11: 0.0047169811320754715 
+12: 0.0047169811320754715 
+13: 0.0047169811320754715 
+14: 0.0047169811320754715 
+15: 0.0008833922261484099 
+16: 0.0008833922261484099 
+17: 0.0008833922261484099 
+18: 0.0008833922261484099 
+19: 0.0008833922261484099 

@@ -1,0 +1,57 @@
+Run-time: 157.7598521709442 seconds
+Total allocated memory size: 46.5 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 13
+No. of (dataset) tuples: 9357
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(429923.2191673315), 'True'], [np.float64(9414032.487412205), 'True'], [np.float64(7883578.024252046), 'True'], [np.float64(14702499.122138992), 'True'], [np.float64(6194408.192206008), 'False'], [np.float64(7482840.04800551), 'True'], [np.float64(13022045.100628652), 'False'], [np.float64(16614683.008123867), 'False'], [np.float64(10659815.1960326), 'True'], [np.float64(10996826.286711672), 'False'], [np.float64(15065538.05414901), 'True'], [np.float64(11444518.206806812), 'True'], [np.float64(7802304.779473377), 'True'], [np.float64(4104235.092368769), 'True'], [np.float64(12765106.116844108), 'True'], [np.float64(8160108.809133277), 'False'], [np.float64(12965654.528326618), 'False'], [np.float64(2384283.311098763), 'True'], [np.float64(12248928.411690345), 'True'], [np.float64(5945840.0247137565), 'True']]
+Minimum support: 0.38
+Number of cores: 4
+Number of patterns: 2
+Number of invalid patterns: 6
+
+0. CO(GT)
+1. PT08.S1(CO)
+2. NMHC(GT)
+3. C6H6(GT)
+4. PT08.S2(NMHC)
+5. NOx(GT)
+6. PT08.S3(NOx)
+7. NO2(GT)
+8. PT08.S4(NO2)
+9. PT08.S5(O3)
+10. T
+11. RH
+12. AH
+
+File: ./data/herman/Clean/air_quality.csv
+
+Pattern : Support
+['0+', '1+', '3+', '5+', '7+', '8+'] : 0.38
+['0+', '1+', '3+', '4+', '6-', '7+', '9+'] : 0.457
+
+
+Iteration: Best Cost
+0: 1.3099553462421574e-07 
+1: 1.3099553462421574e-07 
+2: 1.3099553462421574e-07 
+3: 1.3099553462421574e-07 
+4: 1.3099553462421574e-07 
+5: 1.3099553462421574e-07 
+6: 1.3099553462421574e-07 
+7: 1.3099553462421574e-07 
+8: 1.3099553462421574e-07 
+9: 1.3099553462421574e-07 
+10: 1.3099553462421574e-07 
+11: 1.3099553462421574e-07 
+12: 6.56212415433906e-08 
+13: 6.56212415433906e-08 
+14: 6.56212415433906e-08 
+15: 6.56212415433906e-08 
+16: 6.56212415433906e-08 
+17: 6.56212415433906e-08 
+18: 6.56212415433906e-08 
+19: 6.56212415433906e-08 

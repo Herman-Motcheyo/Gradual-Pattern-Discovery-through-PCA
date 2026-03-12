@@ -1,0 +1,79 @@
+Run-time: 2.459523916244507 seconds
+Total allocated memory size: 37.0 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(13.376678298703265), 'True'], [np.float64(8.106567592764238), 'True'], [np.float64(14.644962627658757), 'True'], [np.float64(12.931562049463064), 'True'], [np.float64(13.438393183984807), 'True'], [np.float64(7.1641017509190625), 'True'], [np.float64(9.675340569744531), 'True'], [np.float64(9.734974788978631), 'True'], [np.float64(5.987286034624662), 'True'], [np.float64(1.1836212512191264), 'True'], [np.float64(6.584118285527948), 'True'], [np.float64(1.9156039380791405), 'True'], [np.float64(4.725891466626021), 'True'], [np.float64(12.391117885024883), 'True'], [np.float64(14.409207763555168), 'True'], [np.float64(4.932739752230783), 'True'], [np.float64(5.9544404301433715), 'True'], [np.float64(11.489945736916276), 'True'], [np.float64(2.791260462647729), 'True'], [np.float64(0.6266925629368053), 'False']]
+Minimum support: 1.0
+Number of cores: 4
+Number of patterns: 0
+Number of invalid patterns: 1
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+
+
+Iteration: Best Cost
+0: 1.2873805423502497e-07 
+1: 1.2873805423502497e-07 
+2: 1.2873805423502497e-07 
+3: 1.2873805423502497e-07 
+4: 1.2873805423502497e-07 
+5: 1.2873805423502497e-07 
+6: 1.2873805423502497e-07 
+7: 1.2873805423502497e-07 
+8: 1.2873805423502497e-07 
+9: 1.2873805423502497e-07 
+10: 1.2873805423502497e-07 
+11: 1.2873805423502497e-07 
+12: 1.2873805423502497e-07 
+13: 1.2873805423502497e-07 
+14: 1.2873805423502497e-07 
+15: 1.2873805423502497e-07 
+16: 1.2873805423502497e-07 
+17: 1.2873805423502497e-07 
+18: 1.2873805423502497e-07 
+19: 1.2873805423502497e-07 

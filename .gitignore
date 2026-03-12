@@ -178,3 +178,6 @@ cython_debug/
 .pypirc
 
 .swp
+
+swarm_gp/myvenv
+swarm_gp/logs

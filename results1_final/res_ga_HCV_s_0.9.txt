@@ -1,0 +1,57 @@
+Run-time: 1.1367683410644531 seconds
+Total allocated memory size: 58.2 KiB
+Algorithm: GA-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 11
+No. of (dataset) tuples: 615
+Population size: 8
+PC: 0.776
+Gamma: 0.746
+Mu: 0.842
+Sigma: 0.681
+Number of iterations: 20
+Number of cost evaluations: 240
+Candidates: [[np.int64(2201927), 'True'], [np.int64(2045385), 'True'], [np.int64(2009277), 'True'], [np.int64(443355), 'True'], [np.int64(2829427), 'True'], [np.int64(1417885), 'True'], [np.int64(4194303), 'True'], [np.int64(1178855), 'True'], [np.int64(2863147), 'True'], [np.int64(2375668), 'True'], [np.int64(2631477), 'True'], [np.int64(2756668), 'True'], [np.int64(1476722), 'True'], [np.int64(1563735), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(1929622), 'True'], [np.int64(1941257), 'True'], [np.int64(4194303), 'True'], [np.int64(1412277), 'True'], [np.int64(2751933), 'True'], [np.int64(2636211), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(2556996), 'True'], [np.int64(1378526), 'True'], [np.int64(4194303), 'True'], [np.int64(3785266), 'True'], [np.int64(3384096), 'True'], [np.int64(1989061), 'True'], [np.int64(3840966), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(1943033), 'True'], [np.int64(3942898), 'True'], [np.int64(4036670), 'True'], [np.int64(4194303), 'True'], [np.int64(66700), 'True'], [np.int64(4007381), 'True'], [np.int64(3972187), 'True'], [np.int64(3811), 'True'], [np.int64(4194303), 'True'], [np.int64(3266546), 'True'], [np.int64(3684424), 'True'], [np.int64(2665446), 'True'], [np.int64(3844244), 'True'], [np.int64(3017965), 'True'], [np.int64(1243037), 'True'], [np.int64(179655), 'True'], [np.int64(2230377), 'True'], [np.int64(3784132), 'True'], [np.int64(476870), 'True'], [np.int64(4194303), 'True'], [np.int64(468870), 'True'], [np.int64(3247789), 'True'], [np.int64(3703181), 'True'], [np.int64(3447899), 'True'], [np.int64(4194303), 'True'], [np.int64(2581193), 'True'], [np.int64(1679809), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(891421), 'True'], [np.int64(1869057), 'True'], [np.int64(914211), 'True'], [np.int64(1690577), 'True'], [np.int64(770578), 'True'], [np.int64(3018498), 'True'], [np.int64(700788), 'True'], [np.int64(184998), 'True'], [np.int64(1835368), 'True'], [np.int64(3273145), 'True'], [np.int64(1355688), 'True'], [np.int64(2233455), 'True'], [np.int64(43404), 'True'], [np.int64(27106), 'True'], [np.int64(34044), 'True'], [np.int64(71066), 'True'], [np.int64(3419669), 'True'], [np.int64(3531301), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(843839), 'True'], [np.int64(137071), 'True'], [np.int64(438399), 'True'], [np.int64(370011), 'True'], [np.int64(1829928), 'True'], [np.int64(1989381), 'True'], [np.int64(4194303), 'True'], [np.int64(4194303), 'True'], [np.int64(369587), 'True'], [np.int64(170348), 'True'], [np.int64(695877), 'True'], [np.int64(700488), 'True'], [np.int64(2512870), 'True'], [np.int64(1276206), 'True'], [np.int64(4194303), 'True'], [np.int64(2762006), 'True'], [np.int64(537955), 'True'], [np.int64(233598), 'True'], [np.int64(579555), 'True'], [np.int64(335988), 'True'], [np.int64(327779), 'True'], [np.int64(175134), 'True'], [np.int64(277799), 'True'], [np.int64(751344), 'True'], [np.int64(16624), 'True'], [np.int64(21230), 'True'], [np.int64(66244), 'True'], [np.int64(12300), 'True'], [np.int64(392725), 'True'], [np.int64(147210), 'True'], [np.int64(927755), 'True'], [np.int64(472110), 'True'], [np.int64(601686), 'True'], [np.int64(648512), 'True'], [np.int64(16886), 'True'], [np.int64(445122), 'True'], [np.int64(46116), 'True'], [np.int64(32427), 'True'], [np.int64(61116), 'True'], [np.int64(24277), 'True'], [np.int64(205860), 'True'], [np.int64(734194), 'True'], [np.int64(8600), 'True'], [np.int64(341144), 'True'], [np.int64(58490), 'True'], [np.int64(427265), 'True'], [np.int64(84400), 'True'], [np.int64(272655), 'True'], [np.int64(52633), 'True'], [np.int64(42526), 'True'], [np.int64(26333), 'True'], [np.int64(25266), 'True'], [np.int64(573742), 'True'], [np.int64(415128), 'True'], [np.int64(773422), 'True'], [np.int64(151228), 'True'], [np.int64(319929), 'True'], [np.int64(152751), 'True'], [np.int64(199299), 'True'], [np.int64(157511), 'True'], [np.int64(14414), 'True'], [np.int64(64129), 'True'], [np.int64(44144), 'True'], [np.int64(64299), 'True'], [np.int64(25535), 'True'], [np.int64(25394), 'True'], [np.int64(55555), 'True'], [np.int64(53944), 'True'], [np.int64(148241), 'True'], [np.int64(112173), 'True'], [np.int64(482411), 'True'], [np.int64(121733), 'True'], [np.int64(811430), 'True'], [np.int64(315623), 'True'], [np.int64(114300), 'True'], [np.int64(156233), 'True'], [np.int64(13931), 'True'], [np.int64(23923), 'True'], [np.int64(39311), 'True'], [np.int64(33233), 'True'], [np.int64(44610), 'True'], [np.int64(44988), 'True'], [np.int64(44100), 'True'], [np.int64(49888), 'True'], [np.int64(18224), 'True'], [np.int64(43963), 'True'], [np.int64(82244), 'True'], [np.int64(33633), 'True'], [np.int64(63242), 'True'], [np.int64(139867), 'True'], [np.int64(32442), 'True'], [np.int64(198677), 'True'], [np.int64(155084), 'True'], [np.int64(78258), 'True'], [np.int64(550044), 'True'], [np.int64(82588), 'True'], [np.int64(111588), 'True'], [np.int64(91521), 'True'], [np.int64(115888), 'True'], [np.int64(95211), 'True'], [np.int64(133249), 'True'], [np.int64(121604), 'True'], [np.int64(332499), 'True'], [np.int64(211044), 'True'], [np.int64(90339), 'True'], [np.int64(121259), 'True'], [np.int64(3399), 'True'], [np.int64(212599), 'True'], [np.int64(162739), 'True'], [np.int64(118803), 'True'], [np.int64(627399), 'True'], [np.int64(188033), 'True'], [np.int64(40078), 'True'], [np.int64(26695), 'True'], [np.int64(788), 'True'], [np.int64(66955), 'True'], [np.int64(839290), 'True'], [np.int64(100764), 'True'], [np.int64(392900), 'True'], [np.int64(100644), 'True'], [np.int64(9141), 'True'], [np.int64(11555), 'True'], [np.int64(1111), 'True'], [np.int64(15555), 'True'], [np.int64(58779), 'True'], [np.int64(73352), 'True'], [np.int64(87799), 'True'], [np.int64(33522), 'True'], [np.int64(634976), 'True'], [np.int64(305078), 'True'], [np.int64(349766), 'True'], [np.int64(350778), 'True'], [np.int64(16074), 'True'], [np.int64(13111), 'True'], [np.int64(66044), 'True'], [np.int64(31111), 'True'], [np.int64(160873), 'True'], [np.int64(71947), 'True'], [np.int64(608733), 'True'], [np.int64(19477), 'True'], [np.int64(23460), 'True'], [np.int64(11172), 'True'], [np.int64(34600), 'True'], [np.int64(11722), 'True'], [np.int64(49739), 'True'], [np.int64(33670), 'True'], [np.int64(99399), 'True'], [np.int64(33700), 'True'], [np.int64(49366), 'True'], [np.int64(1632), 'True'], [np.int64(93666), 'True'], [np.int64(6322), 'True'], [np.int64(15847), 'True'], [np.int64(16593), 'True'], [np.int64(18477), 'True'], [np.int64(15933), 'True']]
+Minimum support: 0.9
+Number of cores: 4
+Number of patterns: 0
+Number of invalid patterns: 0
+
+0. Age
+1. ALB
+2. ALP
+3. ALT
+4. AST
+5. BIL
+6. CHE
+7. CHOL
+8. CREA
+9. GGT
+10. PROT
+
+File: ./data/herman/Clean/HCV.csv
+
+Pattern : Support
+
+
+Iteration: Best Cost
+0: 0.00012605571662674902 
+1: 0.00012174336498660823 
+2: 5.6731151075055314e-05 
+3: 5.6731151075055314e-05 
+4: 5.6731151075055314e-05 
+5: 5.6731151075055314e-05 
+6: 5.6731151075055314e-05 
+7: 5.6731151075055314e-05 
+8: 5.6731151075055314e-05 
+9: 1.1320028526471887e-05 
+10: 1.1320028526471887e-05 
+11: 1.1320028526471887e-05 
+12: 1.1320028526471887e-05 
+13: 1.1320028526471887e-05 
+14: 1.1320028526471887e-05 
+15: 1.1320028526471887e-05 
+16: 1.1320028526471887e-05 
+17: 1.1320028526471887e-05 
+18: 1.1320028526471887e-05 
+19: 9.731413001167769e-06 

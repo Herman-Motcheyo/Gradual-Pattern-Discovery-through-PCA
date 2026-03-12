@@ -1,0 +1,84 @@
+Run-time: 689.8795146942139 seconds
+Total allocated memory size: 74.8 KiB
+Algorithm: GA-GRAANK (v1.0)
+Search Space: Bitmap
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+Population size: 20
+PC: 0.382
+Gamma: 0.547
+Mu: 0.741
+Sigma: 0.654
+Number of iterations: 20
+Number of cost evaluations: 320
+Candidates: [[np.float64(-5.645990463357165e+18), 'False'], [np.float64(8.189062918987934e+18), 'False'], [np.float64(-7.663603096419147e+18), 'False'], [np.float64(7.324371790532798e+18), 'False'], [np.float64(-5.590749902954651e+18), 'False'], [np.float64(8.184559319360563e+18), 'False'], [np.float64(-7.320132159864921e+18), 'False'], [np.float64(6.455177062450293e+18), 'False'], [np.float64(6.149971613968931e+18), 'False'], [np.float64(-7.595837999818643e+18), 'False'], [np.float64(6.150041982713108e+18), 'False'], [np.float64(-7.595697262330288e+18), 'False'], [np.float64(5.861809533169996e+18), 'False'], [np.float64(-7.900821497270985e+18), 'False'], [np.float64(6.150041970906143e+18), 'False'], [np.float64(-7.612588990815427e+18), 'False'], [np.float64(-7.320973476241234e+18), 'False'], [np.float64(7.609217046531433e+18), 'False'], [np.float64(-7.320977874287745e+18), 'False'], [np.float64(7.609208250438411e+18), 'False'], [np.float64(-6.383524181235211e+18), 'False'], [np.float64(-7.235572214260046e+18), 'False'], [np.float64(-6.527568989829635e+18), 'False'], [np.float64(-7.307489065440991e+18), 'False'], [np.float64(5.884056790859864e+18), 'False'], [np.float64(-6.748453040566656e+18), 'False'], [np.float64(6.461071627230206e+18), 'False'], [np.float64(-6.459950056398478e+18), 'False'], [np.float64(-6.748247776563786e+18), 'False'], [np.float64(5.865539019699675e+18), 'False'], [np.float64(-6.460016300900379e+18), 'False'], [np.float64(6.442000871514794e+18), 'False'], [np.float64(5.812347673288202e+18), 'False'], [np.float64(6.94274671294057e+18), 'False'], [np.float64(6.532922513082112e+18), 'False'], [np.float64(7.59126395762281e+18), 'False'], [np.float64(7.612888327400105e+18), 'False'], [np.float64(7.319868190905428e+18), 'False'], [np.float64(7.612888327400105e+18), 'False'], [np.float64(7.319868190905428e+18), 'False'], [np.float64(6.16244720983988e+18), 'False'], [np.float64(-6.159071434264697e+18), 'False'], [np.float64(6.166951359223065e+18), 'False'], [np.float64(-6.154567284881512e+18), 'False'], [np.float64(8.460388592367864e+18), 'False'], [np.float64(-5.00164476712483e+18), 'False'], [np.float64(7.307467088289507e+18), 'False'], [np.float64(-7.307487775805843e+18), 'False'], [np.float64(-7.46539845178605e+18), 'False'], [np.float64(6.100851002075163e+18), 'False'], [np.float64(-7.39333755921219e+18), 'False'], [np.float64(6.244972787222882e+18), 'False'], [np.float64(-6.366284930650642e+18), 'False'], [np.float64(6.58161796000348e+18), 'False'], [np.float64(-6.438342526836054e+18), 'False'], [np.float64(6.437502770853882e+18), 'False'], [np.float64(-7.307348329026361e+18), 'False'], [np.float64(7.613099432558913e+18), 'False'], [np.float64(-7.307840909161896e+18), 'False'], [np.float64(7.612888328473847e+18), 'False'], [np.float64(5.865457662198368e+18), 'False'], [np.float64(7.01921912067762e+18), 'False'], [np.float64(6.153723220725422e+18), 'False'], [np.float64(7.307484679137569e+18), 'False'], [np.float64(-6.017475068513874e+17), 'False'], [np.float64(-6.189163822494095e+17), 'False'], [np.float64(-7.591193657330014e+18), 'False'], [np.float64(-6.455441028121189e+18), 'False'], [np.float64(-6.189163822494095e+17), 'False'], [np.float64(-6.017475068513874e+17), 'False'], [np.float64(7.30755915824514e+18), 'False'], [np.float64(-7.663321624407087e+18), 'False'], [np.float64(-7.667002991272435e+18), 'False'], [np.float64(7.685017390029366e+18), 'False'], [np.float64(-7.667002991272435e+18), 'False'], [np.float64(7.685017390029366e+18), 'False'], [np.float64(-6.222402818892536e+18), 'False'], [np.float64(6.244972787220785e+18), 'False'], [np.float64(-6.222402818891487e+18), 'False'], [np.float64(6.244972787222882e+18), 'False'], [np.float64(7.254077809871186e+18), 'False'], [np.float64(-6.316480333124098e+18), 'False'], [np.float64(7.397911522970331e+18), 'False'], [np.float64(-6.172928095001663e+18), 'False'], [np.float64(-6.605543335926345e+18), 'False'], [np.float64(-7.470162905110567e+18), 'False'], [np.float64(-6.461146672873778e+18), 'False'], [np.float64(-7.325766242058e+18), 'False'], [np.float64(-7.679880270599199e+18), 'False'], [np.float64(-6.171239244067527e+18), 'False'], [np.float64(-7.680443220552686e+18), 'False'], [np.float64(-6.171520719044368e+18), 'False'], [np.float64(-6.226320395736803e+18), 'False'], [np.float64(-6.226338262884654e+18), 'False'], [np.float64(-6.226601870713514e+18), 'False'], [np.float64(-6.226901212838075e+18), 'False'], [np.float64(-6.847342138126653e+18), 'False'], [np.float64(5.835070109653489e+18), 'False'], [np.float64(-6.514075765701237e+18), 'False'], [np.float64(6.533128051895916e+18), 'False'], [np.float64(6.152926067210856e+18), 'False'], [np.float64(-6.155410700692613e+18), 'False'], [np.float64(6.154614925661153e+18), 'False'], [np.float64(-6.154566271467366e+18), 'False'], [np.float64(7.541745236052699e+18), 'False'], [np.float64(6.366494865683207e+18), 'False'], [np.float64(7.685860424128555e+18), 'False'], [np.float64(6.510610053759063e+18), 'False'], [np.float64(7.027133940248373e+18), 'False'], [np.float64(-7.959719632542849e+18), 'False'], [np.float64(7.60809856705714e+18), 'False'], [np.float64(-7.378755005734083e+18), 'False'], [np.float64(-5.001925211112335e+18), 'False'], [np.float64(8.816244088133395e+18), 'False'], [np.float64(-7.307769251118017e+18), 'False'], [np.float64(7.663320521942329e+18), 'False'], [np.float64(6.964083008825878e+18), 'False'], [np.float64(-6.89238033339006e+18), 'False'], [np.float64(7.61260355415693e+18), 'False'], [np.float64(-6.24385978804223e+18), 'False'], [np.float64(7.600203240547422e+18), 'False'], [np.float64(-7.60471015159568e+18), 'False'], [np.float64(7.591197145099294e+18), 'False'], [np.float64(-7.609211543609826e+18), 'False'], [np.float64(5.866583557809277e+18), 'False'], [np.float64(5.865453191136365e+18), 'False'], [np.float64(6.44307949349468e+18), 'False'], [np.float64(6.153718750736898e+18), 'False'], [np.float64(-7.67148864115901e+18), 'False'], [np.float64(6.504770962033404e+18), 'False'], [np.float64(-7.662481580415949e+18), 'False'], [np.float64(6.513778021703789e+18), 'False'], [np.float64(-6.460865197897068e+18), 'False'], [np.float64(-7.375372720280017e+18), 'False'], [np.float64(-6.460865197897068e+18), 'False'], [np.float64(-7.375372720280017e+18), 'False'], [np.float64(-7.324917088188455e+18), 'False'], [np.float64(-6.515471197601705e+18), 'False'], [np.float64(-7.324635690521156e+18), 'False'], [np.float64(-6.514908320662728e+18), 'False'], [np.float64(7.662555454187679e+18), 'False'], [np.float64(-7.662348745531893e+18), 'False'], [np.float64(7.662410318585702e+18), 'False'], [np.float64(-7.6624235124568e+18), 'False'], [np.float64(5.812271875637992e+18), 'False'], [np.float64(5.807784768685043e+18), 'False'], [np.float64(6.244617300279122e+18), 'False'], [np.float64(6.528360638197361e+18), 'False'], [np.float64(6.095787476203952e+18), 'False'], [np.float64(-6.316204583402774e+18), 'False'], [np.float64(6.168126545218591e+18), 'False'], [np.float64(-6.243865514388135e+18), 'False'], [np.float64(-6.527500201647054e+18), 'False'], [np.float64(-7.307558609552497e+18), 'False'], [np.float64(-6.527499651889143e+18), 'False'], [np.float64(-7.307558059794586e+18), 'False'], [np.float64(-6.155410421519657e+18), 'False'], [np.float64(7.61204417734788e+18), 'False'], [np.float64(-6.1537218465373e+18), 'False'], [np.float64(7.614013952429042e+18), 'False'], [np.float64(5.865492846670162e+18), 'False'], [np.float64(5.951952595947705e+18), 'False'], [np.float64(6.15372322174787e+18), 'False'], [np.float64(6.240182969951409e+18), 'False'], [np.float64(6.821435738547464e+18), 'False'], [np.float64(-7.103980269228169e+18), 'False'], [np.float64(6.533203163374594e+18), 'False'], [np.float64(-7.680442121042172e+18), 'False'], [np.float64(-6.226977063215733e+18), 'False'], [np.float64(6.244973886732413e+18), 'False'], [np.float64(-6.226977063214684e+18), 'False'], [np.float64(6.244973886733462e+18), 'False'], [np.float64(-5.017521910186662e+18), 'False'], [np.float64(8.767713888735422e+18), 'False'], [np.float64(-6.172629234245851e+18), 'False'], [np.float64(6.459751026472086e+18), 'False'], [np.float64(5.847261482518931e+18), 'False'], [np.float64(5.84860434169218e+18), 'False'], [np.float64(6.153506257179601e+18), 'False'], [np.float64(6.172863514862594e+18), 'False'], [np.float64(2.9975923258934815e+18), 'False'], [np.float64(2.978456713290754e+18), 'False'], [np.float64(-6.22577971096077e+18), 'False'], [np.float64(-6.244915323563497e+18), 'False'], [np.float64(7.086508130721765e+18), 'False'], [np.float64(-7.956547271923505e+18), 'False'], [np.float64(7.375019981850188e+18), 'False'], [np.float64(-7.37952356966666e+18), 'False'], [np.float64(-5.30258879704186e+18), 'False'], [np.float64(-5.073679455656455e+18), 'False'], [np.float64(-6.455512500671962e+18), 'False'], [np.float64(-6.22660205977493e+18), 'False'], [np.float64(7.67565408852449e+18), 'False'], [np.float64(-7.689450280223119e+18), 'False'], [np.float64(7.684661148193809e+18), 'False'], [np.float64(-7.684946751460645e+18), 'False'], [np.float64(-6.226888707146128e+18), 'False'], [np.float64(-6.154637860786543e+18), 'False'], [np.float64(-6.226888844585115e+18), 'False'], [np.float64(-6.154637929506052e+18), 'False'], [np.float64(-6.605191492188671e+18), 'False'], [np.float64(-6.316978347781279e+18), 'False'], [np.float64(-6.533133898150751e+18), 'False'], [np.float64(-6.244920753743359e+18), 'False'], [np.float64(-6.46079476041662e+18), 'False'], [np.float64(6.459685335002147e+18), 'False'], [np.float64(-6.46079476041662e+18), 'False'], [np.float64(6.459685335002147e+18), 'False'], [np.float64(-6.869580860544867e+18), 'False'], [np.float64(-8.027274451570285e+18), 'False'], [np.float64(-6.437233097310821e+18), 'False'], [np.float64(-7.37875500575086e+18), 'False'], [np.float64(5.943297375637689e+18), 'False'], [np.float64(5.870959668936481e+18), 'False'], [np.float64(6.510680491222717e+18), 'False'], [np.float64(6.150042039625619e+18), 'False'], [np.float64(8.477561664296212e+18), 'False'], [np.float64(-5.018797146990403e+18), 'False'], [np.float64(7.32464015861156e+18), 'False'], [np.float64(-6.17171865267512e+18), 'False'], [np.float64(8.834256411628571e+18), 'False'], [np.float64(-5.091699151380068e+18), 'False'], [np.float64(7.681334907285973e+18), 'False'], [np.float64(-7.397542160065272e+18), 'False'], [np.float64(-7.679880270599199e+18), 'False'], [np.float64(-6.171239244067527e+18), 'False'], [np.float64(-7.680161745575975e+18), 'False'], [np.float64(-6.171520719044303e+18), 'False'], [np.float64(8.472789695512209e+18), 'False'], [np.float64(-5.00164476686065e+18), 'False'], [np.float64(7.319868190905428e+18), 'False'], [np.float64(-7.307487776074213e+18), 'False'], [np.float64(6.10085430490711e+18), 'False'], [np.float64(-6.317027018301677e+18), 'False'], [np.float64(6.172911898945038e+18), 'False'], [np.float64(-6.244969424263749e+18), 'False'], [np.float64(6.509582359171869e+18), 'False'], [np.float64(-6.221338788881669e+18), 'False'], [np.float64(6.509577961125358e+18), 'False'], [np.float64(-6.22134318692818e+18), 'False'], [np.float64(5.879841541313571e+18), 'False'], [np.float64(5.86518724577122e+18), 'False'], [np.float64(6.168074047769192e+18), 'False'], [np.float64(6.153419752226776e+18), 'False'], [np.float64(-7.682695018218953e+18), 'False'], [np.float64(6.458842093347842e+18), 'False'], [np.float64(-7.681569119385852e+18), 'False'], [np.float64(6.461093891014044e+18), 'False'], [np.float64(-5.884404308154658e+18), 'False'], [np.float64(-7.103982330810341e+18), 'False'], [np.float64(-6.172634821745339e+18), 'False'], [np.float64(-7.680443151833258e+18), 'False'], [np.float64(-5.66182671644676e+18), 'False'], [np.float64(8.173231322662169e+18), 'False'], [np.float64(-7.393320035682721e+18), 'False'], [np.float64(7.30748466304368e+18), 'False'], [np.float64(7.612044177348142e+18), 'False'], [np.float64(-7.308331852843624e+18), 'False'], [np.float64(7.612888052522461e+18), 'False'], [np.float64(-7.307769452646017e+18), 'False'], [np.float64(-7.449687799376796e+18), 'False'], [np.float64(-6.310277099037564e+18), 'False'], [np.float64(-7.379880905640925e+18), 'False'], [np.float64(-6.239343205883223e+18), 'False'], [np.float64(5.884347276626012e+18), 'False'], [np.float64(5.883507249458211e+18), 'False'], [np.float64(6.172577647409146e+18), 'False'], [np.float64(6.459967995319314e+18), 'False'], [np.float64(-6.154620285780106e+18), 'False'], [np.float64(-6.226906282152565e+18), 'False'], [np.float64(-6.154620354499616e+18), 'False'], [np.float64(-6.226906350872074e+18), 'False'], [np.float64(-5.082002802699066e+18), 'False'], [np.float64(-5.280987811747125e+18), 'False'], [np.float64(-6.239287143675092e+18), 'False'], [np.float64(-6.442775739465636e+18), 'False'], [np.float64(-7.738704326343416e+18), 'False'], [np.float64(-6.294512090866097e+18), 'False'], [np.float64(-7.666646732304439e+18), 'False'], [np.float64(-6.222454496827121e+18), 'False'], [np.float64(-6.875477542290677e+18), 'False'], [np.float64(5.794613579376842e+18), 'False'], [np.float64(-6.443131978063109e+18), 'False'], [np.float64(6.154901549566481e+18), 'False'], [np.float64(6.526724819102476e+18), 'False'], [np.float64(6.43665385735167e+18), 'False'], [np.float64(6.527287773350963e+18), 'False'], [np.float64(6.43721681589519e+18), 'False'], [np.float64(6.104803471551715e+18), 'False'], [np.float64(-6.30718858805501e+18), 'False'], [np.float64(6.168408020195301e+18), 'False'], [np.float64(-6.171526445373496e+18), 'False'], [np.float64(2.6913475641171896e+18), 'False'], [np.float64(2.9967525739591537e+18), 'False'], [np.float64(-6.532024472737324e+18), 'False'], [np.float64(-6.22661946289536e+18), 'False'], [np.float64(5.883301274788391e+18), 'False'], [np.float64(5.934160296706659e+18), 'False'], [np.float64(6.171526153314331e+18), 'False'], [np.float64(6.222379677674722e+18), 'False'], [np.float64(5.84860434169218e+18), 'False'], [np.float64(5.847261482518931e+18), 'False'], [np.float64(6.443079492504824e+18), 'False'], [np.float64(6.459751031841057e+18), 'False'], [np.float64(-7.397682897687681e+18), 'False'], [np.float64(-6.222543556512848e+18), 'False'], [np.float64(-7.397542160132299e+18), 'False'], [np.float64(-6.222473187634551e+18), 'False'], [np.float64(-5.081179023764791e+18), 'False'], [np.float64(-5.009121630780809e+18), 'False'], [np.float64(-6.243846599289248e+18), 'False'], [np.float64(-7.325783834260823e+18), 'False'], [np.float64(-6.15088483165842e+18), 'False'], [np.float64(6.454597156162938e+18), 'False'], [np.float64(-6.14919653155397e+18), 'False'], [np.float64(6.455441306215163e+18), 'False'], [np.float64(-7.373921277740407e+18), 'False'], [np.float64(6.171446162757413e+18), 'False'], [np.float64(-7.373912481647385e+18), 'False'], [np.float64(6.171454958850435e+18), 'False']]
+Minimum support: 0.38
+Number of cores: 4
+Number of patterns: 1
+Number of invalid patterns: 320
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+['1+', '13+'] : 0.49
+
+
+Iteration: Best Cost
+0: 1.0 
+1: 1.0 
+2: 1.0 
+3: 1.0 
+4: 1.0 
+5: 1.0 
+6: 1.0 
+7: 1.0 
+8: 1.0 
+9: 1.0 
+10: 1.0 
+11: 1.0 
+12: 1.0 
+13: 1.0 
+14: 1.0 
+15: 1.0 
+16: 1.0 
+17: 1.0 
+18: 1.0 
+19: 1.0 

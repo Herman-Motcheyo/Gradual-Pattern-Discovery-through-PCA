@@ -1,0 +1,82 @@
+Run-time: 46.22727680206299 seconds
+Total allocated memory size: 55.5 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(2.112464573026578e+21), 'False'], [np.float64(2.7779888057475526e+21), 'False'], [np.float64(1.0799244387878972e+21), 'True'], [np.float64(2.923554426914117e+21), 'False'], [np.float64(1.9601203723016067e+21), 'True'], [np.float64(2.6887475424828966e+21), 'True'], [np.float64(1.3246868165765292e+21), 'False'], [np.float64(1.3184877335332253e+21), 'True'], [np.float64(3.3710650042367554e+20), 'True'], [np.float64(1.203970445740942e+21), 'True'], [np.float64(2.448460249647138e+21), 'True'], [np.float64(3.078917674880904e+21), 'True'], [np.float64(2.892654975400065e+20), 'False'], [np.float64(3.734624891254211e+21), 'True'], [np.float64(1.5828456586319327e+21), 'True'], [np.float64(1.6955698443185008e+21), 'False'], [np.float64(3.67916635415271e+21), 'True'], [np.float64(1.831561406349668e+21), 'True'], [np.float64(4.363563858421311e+21), 'True'], [np.float64(2.8212421592278153e+21), 'False']]
+Minimum support: 0.34
+Number of cores: 4
+Number of patterns: 3
+Number of invalid patterns: 7
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+['0+', '3+'] : 0.421
+['0+', '1-', '2-'] : 0.407
+['0+', '2+'] : 0.508
+
+
+Iteration: Best Cost
+0: 0.25 
+1: 0.25 
+2: 0.25 
+3: 0.25 
+4: 0.1111111111111111 
+5: 0.1111111111111111 
+6: 0.1111111111111111 
+7: 0.07142857142857142 
+8: 0.005747126436781609 
+9: 0.005747126436781609 
+10: 0.005747126436781609 
+11: 0.005747126436781609 
+12: 0.005747126436781609 
+13: 0.005747126436781609 
+14: 0.005747126436781609 
+15: 0.005747126436781609 
+16: 0.005747126436781609 
+17: 0.005747126436781609 
+18: 0.005747126436781609 
+19: 0.005747126436781609 
