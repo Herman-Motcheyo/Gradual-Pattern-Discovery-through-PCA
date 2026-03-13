@@ -86,8 +86,8 @@ def plot_memory(df, file_name ):
     plt.xlabel('Minimum support threshold')
 
     plt.tight_layout()
-    plt.savefig("../../data/article/"+file_name+".eps")
-    plt.savefig("../../data/article/"+file_name+".jpeg")
+   # plt.savefig("../../data/article/"+file_name+".eps")
+  #  plt.savefig("../../data/article/"+file_name+".jpeg")
     plt.show()
     plt.close()
 
@@ -110,8 +110,8 @@ def plot_number_pattern(df, file_name ):
     plt.xlabel('Minimum support threshold')
 
     plt.tight_layout()
-    plt.savefig("../../data/article/"+file_name+".eps")
-    plt.savefig("../../data/article/"+file_name+".jpeg")
+   # plt.savefig("../../data/article/"+file_name+".eps")
+    #plt.savefig("../../data/article/"+file_name+".jpeg")
     plt.show()
     plt.close()
 
@@ -134,8 +134,8 @@ def plot_time(df, file_name ):
     plt.xlabel('Minimum support threshold')
 
     plt.tight_layout()
-    plt.savefig("../../data/article/"+file_name+".eps")
-    plt.savefig("../../data/article/"+file_name+".jpeg")
+   # plt.savefig("../../data/article/"+file_name+".eps")
+   # plt.savefig("../../data/article/"+file_name+".jpeg")
     plt.show()
     plt.close()
 

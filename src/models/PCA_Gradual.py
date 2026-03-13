@@ -184,10 +184,10 @@ class PcaGradualPattern:
     
     def show_size_final_features(self, datasets, num_selected_features, num_initial_components,num_original_variables):
         fig, ax = plt.subplots(figsize=(10, 6))
-        width = 0.2  # Largeur des barres
+        width = 0.2  
         x = range(len(datasets))
 
-         # Barres pour chaque type de donnée
+         
         bars_selected = ax.bar([p - width for p in x], num_selected_features, width=width, label="Selected features")
         bars_components = ax.bar(x, num_initial_components, width=width, label="Initial components")
         bars_original = ax.bar([p + width for p in x], num_original_variables, width=width, label="Original feature")
@@ -198,7 +198,7 @@ class PcaGradualPattern:
                 yval = bar.get_height()
                 ax.text(bar.get_x() + bar.get_width() / 2, yval + 0.5, int(yval), ha='center', va='bottom')
 
-        # Personnalisation
+       
         ax.set_xticks(x)
         ax.set_xticklabels(datasets)
         ax.set_xlabel("Dataset")
