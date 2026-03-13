@@ -1,0 +1,79 @@
+Run-time: 52.11126160621643 seconds
+Total allocated memory size: 52.5 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(6.369859625128402e+19), 'False'], [np.float64(3.6842975616382812e+19), 'True'], [np.float64(6.326221529540873e+19), 'False'], [np.float64(4.987394930999904e+19), 'False'], [np.float64(3.269825821968072e+19), 'True'], [np.float64(4.5345706947951665e+19), 'True'], [np.float64(2.012871183586681e+19), 'False'], [np.float64(7.188711363832963e+19), 'False'], [np.float64(7.132320883628398e+19), 'False'], [np.float64(9.392031878693782e+18), 'True'], [np.float64(2.1363896086686007e+19), 'True'], [np.float64(5.157312666078113e+19), 'True'], [np.float64(1.615808012794196e+19), 'True'], [np.float64(2.1947473826585076e+19), 'True'], [np.float64(4.383714787443165e+19), 'False'], [np.float64(1.4984858525253067e+19), 'True'], [np.float64(5.275812703629228e+19), 'True'], [np.float64(1.6848319946922656e+19), 'True'], [np.float64(1.007832929986243e+19), 'False'], [np.float64(2.327323251501332e+19), 'False']]
+Minimum support: 0.8
+Number of cores: 4
+Number of patterns: 0
+Number of invalid patterns: 9
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+
+
+Iteration: Best Cost
+0: 0.0019120458891013384 
+1: 0.0019120458891013384 
+2: 0.0019120458891013384 
+3: 0.0019120458891013384 
+4: 0.0019120458891013384 
+5: 0.0019120458891013384 
+6: 0.0019120458891013384 
+7: 0.0019120458891013384 
+8: 0.0019120458891013384 
+9: 0.0019120458891013384 
+10: 0.0019120458891013384 
+11: 0.0019120458891013384 
+12: 0.0019120458891013384 
+13: 0.0019120458891013384 
+14: 0.0019120458891013384 
+15: 0.0019120458891013384 
+16: 0.0019120458891013384 
+17: 0.0019120458891013384 
+18: 0.0019120458891013384 
+19: 0.0019120458891013384 

@@ -1,0 +1,65 @@
+Run-time: 1.241295337677002 seconds
+Total allocated memory size: 51.1 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 20
+No. of (dataset) tuples: 522
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(528183512475.07086), 'True'], [np.float64(266633034375.15326), 'True'], [np.float64(545571768402.41736), 'True'], [np.float64(228809651260.76102), 'True'], [np.float64(249681912136.5765), 'True'], [np.float64(503468938590.1925), 'True'], [np.float64(778397768627.2866), 'True'], [np.float64(302662126409.63904), 'True'], [np.float64(87136305039.73447), 'False'], [np.float64(169817074319.34384), 'True'], [np.float64(481798738721.8826), 'True'], [np.float64(101631841720.70297), 'False'], [np.float64(595689727784.1011), 'True'], [np.float64(488173049991.954), 'True'], [np.float64(732831786971.963), 'True'], [np.float64(719428162439.9899), 'False'], [np.float64(530057352409.24756), 'True'], [np.float64(357634596756.08356), 'False'], [np.float64(960470163069.9812), 'False'], [np.float64(697779820995.5383), 'True']]
+Minimum support: 0.5
+Number of cores: 4
+Number of patterns: 3
+Number of invalid patterns: 5
+
+0. BUDAPEST
+1. BARANYA
+2. BACS
+3. BEKES
+4. BORSOD
+5. CSONGRAD
+6. FEJER
+7. GYOR
+8. HAJDU
+9. HEVES
+10. JASZ
+11. KOMAROM
+12. NOGRAD
+13. PEST
+14. SOMOGY
+15. SZABOLCS
+16. TOLNA
+17. VAS
+18. VESZPREM
+19. ZALA
+
+File: ./data/herman/Clean/Chickenpox.csv
+
+Pattern : Support
+['0+', '2+', '4+', '8+', '9+'] : 0.501
+['0+', '1+', '2+', '4+', '8+'] : 0.511
+['0+', '1+', '2+', '3+', '13+'] : 0.504
+
+
+Iteration: Best Cost
+0: 0.01694915254237288 
+1: 0.01694915254237288 
+2: 0.01694915254237288 
+3: 0.01694915254237288 
+4: 0.0038022813688212928 
+5: 0.001488095238095238 
+6: 0.001488095238095238 
+7: 0.001488095238095238 
+8: 0.001488095238095238 
+9: 0.001488095238095238 
+10: 0.001488095238095238 
+11: 0.001488095238095238 
+12: 0.001488095238095238 
+13: 0.001488095238095238 
+14: 0.001488095238095238 
+15: 0.001488095238095238 
+16: 0.001488095238095238 
+17: 0.001488095238095238 
+18: 0.001488095238095238 
+19: 0.001488095238095238 

@@ -1,0 +1,79 @@
+Run-time: 28.27026629447937 seconds
+Total allocated memory size: 50.1 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 37
+No. of (dataset) tuples: 3942
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(268758599214.3791), 'True'], [np.float64(188716289498.12396), 'True'], [np.float64(10366585144.63236), 'True'], [np.float64(72157110101.51685), 'True'], [np.float64(249508803119.895), 'True'], [np.float64(161633686187.59277), 'True'], [np.float64(5106006103.06315), 'True'], [np.float64(186560770860.03543), 'True'], [np.float64(221810674801.8186), 'True'], [np.float64(14522453395.07458), 'True'], [np.float64(151650196800.73108), 'True'], [np.float64(173488568269.5315), 'True'], [np.float64(102766178392.1248), 'True'], [np.float64(143241053830.34958), 'True'], [np.float64(200915462576.79163), 'True'], [np.float64(35603695919.546715), 'True'], [np.float64(160632898895.96146), 'True'], [np.float64(34729448911.59732), 'True'], [np.float64(18391479498.66515), 'True'], [np.float64(36589209750.9296), 'True']]
+Minimum support: 0.9
+Number of cores: 4
+Number of patterns: 0
+Number of invalid patterns: 0
+
+0. i1_legid
+1. i1_rcs_p
+2. i1_rcs_e
+3. i1_dep_1_p
+4. i1_dep_1_e
+5. i1_dep_1_place
+6. i1_rcf_1_p
+7. i1_rcf_1_e
+8. i1_rcf_1_place
+9. i1_dlv_p
+10. i1_dlv_e
+11. i1_hops
+12. i2_legid
+13. i2_rcs_p
+14. i2_rcs_e
+15. i2_dep_1_p
+16. i2_dep_1_e
+17. i2_dep_1_place
+18. i2_rcf_1_p
+19. i2_rcf_1_e
+20. i2_rcf_1_place
+21. i2_dlv_p
+22. i2_dlv_e
+23. i2_hops
+24. o_legid
+25. o_rcs_p
+26. o_rcs_e
+27. o_dep_1_p
+28. o_dep_1_e
+29. o_dep_1_place
+30. o_rcf_1_p
+31. o_rcf_1_e
+32. o_rcf_1_place
+33. o_dlv_p
+34. o_dlv_e
+35. o_hops
+36. legs
+
+File: ./data/herman/Clean/Cargo_2000.csv
+
+Pattern : Support
+
+
+Iteration: Best Cost
+0: 0.000777000777000777 
+1: 0.000777000777000777 
+2: 0.000777000777000777 
+3: 0.000777000777000777 
+4: 0.000777000777000777 
+5: 0.000777000777000777 
+6: 0.000777000777000777 
+7: 0.000777000777000777 
+8: 0.000777000777000777 
+9: 0.000777000777000777 
+10: 0.00014222727919214906 
+11: 0.00014222727919214906 
+12: 0.00014222727919214906 
+13: 0.00014222727919214906 
+14: 0.00014222727919214906 
+15: 0.00014222727919214906 
+16: 0.00014222727919214906 
+17: 0.00014222727919214906 
+18: 0.00014222727919214906 
+19: 6.425909266161162e-05 

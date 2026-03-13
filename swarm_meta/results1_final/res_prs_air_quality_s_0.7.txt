@@ -1,0 +1,57 @@
+Run-time: 124.56837177276611 seconds
+Total allocated memory size: 42.4 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 13
+No. of (dataset) tuples: 9357
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(138522.86840441442), 'False'], [np.float64(6756641.141600755), 'True'], [np.float64(12163061.182032824), 'False'], [np.float64(8831049.297817962), 'False'], [np.float64(12648483.948741505), 'True'], [np.float64(11626374.697304845), 'True'], [np.float64(4705864.544263749), 'True'], [np.float64(5706800.481139659), 'True'], [np.float64(5571552.95527124), 'True'], [np.float64(7071532.467125055), 'False'], [np.float64(11276201.311174154), 'False'], [np.float64(6653715.149543055), 'True'], [np.float64(11776838.528763885), 'True'], [np.float64(8806444.805524671), 'False'], [np.float64(3447994.8953639395), 'True'], [np.float64(8936530.903457964), 'True'], [np.float64(3021979.389369789), 'True'], [np.float64(215107.9602024478), 'True'], [np.float64(8530166.97983749), 'True'], [np.float64(16507387.19788125), 'True']]
+Minimum support: 0.7
+Number of cores: 4
+Number of patterns: 2
+Number of invalid patterns: 6
+
+0. CO(GT)
+1. PT08.S1(CO)
+2. NMHC(GT)
+3. C6H6(GT)
+4. PT08.S2(NMHC)
+5. NOx(GT)
+6. PT08.S3(NOx)
+7. NO2(GT)
+8. PT08.S4(NO2)
+9. PT08.S5(O3)
+10. T
+11. RH
+12. AH
+
+File: ./data/herman/Clean/air_quality.csv
+
+Pattern : Support
+['0+', '1+'] : 0.705
+['0+', '3+', '4+'] : 0.717
+
+
+Iteration: Best Cost
+0: 1.3382371696176803e-07 
+1: 1.3382371696176803e-07 
+2: 1.3382371696176803e-07 
+3: 1.3382371696176803e-07 
+4: 1.3382371696176803e-07 
+5: 1.3382371696176803e-07 
+6: 9.581915169963532e-08 
+7: 9.581915169963532e-08 
+8: 9.581915169963532e-08 
+9: 9.581915169963532e-08 
+10: 9.581915169963532e-08 
+11: 9.581915169963532e-08 
+12: 9.581915169963532e-08 
+13: 9.581915169963532e-08 
+14: 9.581915169963532e-08 
+15: 9.581915169963532e-08 
+16: 9.581915169963532e-08 
+17: 9.581915169963532e-08 
+18: 9.581915169963532e-08 
+19: 9.581915169963532e-08 

@@ -1,0 +1,63 @@
+Run-time: 0.8390960693359375 seconds
+Total allocated memory size: 45.7 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 20
+No. of (dataset) tuples: 522
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(950275165907.9226), 'True'], [np.float64(350777727891.3569), 'False'], [np.float64(946642653358.8759), 'True'], [np.float64(545532806421.95624), 'True'], [np.float64(102240701119.75333), 'False'], [np.float64(974166746774.938), 'False'], [np.float64(47140554329.05441), 'True'], [np.float64(1070909032217.7909), 'True'], [np.float64(1011792676941.9509), 'True'], [np.float64(788912822539.2582), 'False'], [np.float64(581587644821.6299), 'False'], [np.float64(331163585475.2757), 'True'], [np.float64(477061810729.191), 'True'], [np.float64(486117376059.4376), 'False'], [np.float64(729450120483.4783), 'False'], [np.float64(4403673883.899803), 'True'], [np.float64(43827336126.4909), 'True'], [np.float64(5292026235.123727), 'True'], [np.float64(420502207331.2217), 'True'], [np.float64(919378136608.1107), 'True']]
+Minimum support: 0.7
+Number of cores: 4
+Number of patterns: 1
+Number of invalid patterns: 7
+
+0. BUDAPEST
+1. BARANYA
+2. BACS
+3. BEKES
+4. BORSOD
+5. CSONGRAD
+6. FEJER
+7. GYOR
+8. HAJDU
+9. HEVES
+10. JASZ
+11. KOMAROM
+12. NOGRAD
+13. PEST
+14. SOMOGY
+15. SZABOLCS
+16. TOLNA
+17. VAS
+18. VESZPREM
+19. ZALA
+
+File: ./data/herman/Clean/Chickenpox.csv
+
+Pattern : Support
+['0+', '1+'] : 0.757
+
+
+Iteration: Best Cost
+0: 0.008333333333333333 
+1: 0.008333333333333333 
+2: 0.008333333333333333 
+3: 0.008333333333333333 
+4: 0.008333333333333333 
+5: 0.008333333333333333 
+6: 0.008333333333333333 
+7: 0.008333333333333333 
+8: 0.008333333333333333 
+9: 0.008333333333333333 
+10: 0.008333333333333333 
+11: 0.008333333333333333 
+12: 0.008333333333333333 
+13: 0.008333333333333333 
+14: 0.008333333333333333 
+15: 0.008333333333333333 
+16: 0.008333333333333333 
+17: 0.008333333333333333 
+18: 0.008333333333333333 
+19: 0.008333333333333333 

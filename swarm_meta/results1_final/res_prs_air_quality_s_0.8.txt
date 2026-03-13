@@ -1,0 +1,55 @@
+Run-time: 130.2164556980133 seconds
+Total allocated memory size: 42.2 KiB
+Algorithm: PRS-GRAANK (v2.0)
+Search Space: Numeric
+No. of (dataset) attributes: 13
+No. of (dataset) tuples: 9357
+N-var: 1
+Number of iterations: 20
+Number of cost evaluations: 20
+Candidates: [[np.float64(7704318.082069227), 'True'], [np.float64(6178534.127749773), 'True'], [np.float64(12968861.364673208), 'True'], [np.float64(11489717.275405617), 'True'], [np.float64(298506.3860159611), 'True'], [np.float64(6010496.044878524), 'False'], [np.float64(9075602.688167753), 'True'], [np.float64(5480399.882524419), 'False'], [np.float64(2102738.8682134994), 'True'], [np.float64(591689.3048413454), 'True'], [np.float64(16204606.767289473), 'False'], [np.float64(1211554.3005754373), 'True'], [np.float64(16314860.40931863), 'True'], [np.float64(8981336.43456176), 'False'], [np.float64(5130798.833401187), 'True'], [np.float64(296206.8505661473), 'True'], [np.float64(16698331.295416342), 'True'], [np.float64(8864171.758431917), 'False'], [np.float64(8300627.839311278), 'False'], [np.float64(4251136.541420401), 'True']]
+Minimum support: 0.8
+Number of cores: 4
+Number of patterns: 0
+Number of invalid patterns: 6
+
+0. CO(GT)
+1. PT08.S1(CO)
+2. NMHC(GT)
+3. C6H6(GT)
+4. PT08.S2(NMHC)
+5. NOx(GT)
+6. PT08.S3(NOx)
+7. NO2(GT)
+8. PT08.S4(NO2)
+9. PT08.S5(O3)
+10. T
+11. RH
+12. AH
+
+File: ./data/herman/Clean/air_quality.csv
+
+Pattern : Support
+
+
+Iteration: Best Cost
+0: 1.7825629690368813e-05 
+1: 3.619880674253454e-07 
+2: 3.619880674253454e-07 
+3: 3.619880674253454e-07 
+4: 2.038608804425249e-07 
+5: 2.038608804425249e-07 
+6: 2.038608804425249e-07 
+7: 2.038608804425249e-07 
+8: 2.038608804425249e-07 
+9: 2.038608804425249e-07 
+10: 2.038608804425249e-07 
+11: 2.038608804425249e-07 
+12: 2.038608804425249e-07 
+13: 2.038608804425249e-07 
+14: 2.038608804425249e-07 
+15: 2.038608804425249e-07 
+16: 2.038608804425249e-07 
+17: 2.038608804425249e-07 
+18: 2.038608804425249e-07 
+19: 2.038608804425249e-07 
