@@ -310,7 +310,7 @@ def plot_comparison_sizes2(original, pca, dataset_valid,
                loc="upper center", bbox_to_anchor=(0.5, -0.1), ncol=3, frameon=False)
 
     fig.tight_layout()
-    plt.savefig(f'{title}.jpeg')
+    #plt.savefig(f'{title}.jpeg')
     plt.show()
 
 
@@ -391,6 +391,6 @@ def plot_comparison_bars(original, pca, dataset_valid,
     plt.legend(title="", loc="upper right")
 
 
-    plt.savefig(f"{title}_bar.eps")
+    #plt.savefig(f"{title}_bar.eps")
     plt.tight_layout()
     plt.show()
