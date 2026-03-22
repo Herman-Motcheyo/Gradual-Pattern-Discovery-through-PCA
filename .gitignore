@@ -181,3 +181,6 @@ cython_debug/
 
 swarm_gp/myvenv
 swarm_gp/logs
+
+swarm_meta/myvenv
+swarm_gp/logs
